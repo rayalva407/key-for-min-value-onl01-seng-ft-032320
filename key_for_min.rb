@@ -10,8 +10,8 @@ def key_for_min_value(name_hash)
   value = nil
   
   name_hash.each do |key, value|
-    if name_hash.length == 0
-      return nil
+    if value == nil
+      return value
     elsif value == new_array[0]
       return key
     end
