@@ -7,9 +7,7 @@ def key_for_min_value(name_hash)
   end
   new_array = array.sort
   name_hash.each do |key, value|
-    if name_hash.length < 1
-      return nil
-    elsif value == new_array[0]
+    if value == new_array[0]
       return key
     end
   end
