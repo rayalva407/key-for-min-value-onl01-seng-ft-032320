@@ -10,4 +10,5 @@ def key_for_min_value(name_hash)
     if value == array[0]
       return key
     end
+  end
 end
